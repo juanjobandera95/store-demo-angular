@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'store';
+
+
+  getName():void{
+
+    console.log('Hola Angular');
+  }
 }
